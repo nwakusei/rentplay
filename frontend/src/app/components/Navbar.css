@@ -1,0 +1,32 @@
+nav {
+	background-color: blueviolet;
+	margin: 0;
+	padding: 0;
+}
+
+nav ul {
+	display: flex;
+	flex-direction: row;
+	align-items: center;
+	gap: 20px;
+	padding: 25px;
+	margin-left: 50px;
+}
+
+nav li {
+	padding: 10px 30px; /* <-- já deixa o padding fixo */
+	border-radius: 4px;
+	color: white;
+	transition: background-color 0.3s, transform 0.2s; /* anima cor e escala */
+	cursor: pointer;
+	user-select: none;
+}
+
+nav li:hover {
+	background-color: azure;
+	color: black;
+}
+
+nav li:active {
+	transform: scale(0.97);
+}
