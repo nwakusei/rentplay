@@ -1,3 +1,6 @@
+// Style Sheet CSS
+import "./CategoryButton.css";
+
 // Icons
 // import { BsNintendoSwitch } from "react-icons/bs";
 import { SiNintendoswitch } from "react-icons/si";
@@ -9,7 +12,7 @@ import { SiPlaystationportable } from "react-icons/si";
 
 function CategoryButton() {
 	return (
-		<div className="flex flex-row gap-4">
+		<div className="category-container">
 			<div className="category-btn">
 				<SiNintendoswitch size={50} />
 				<span>Nintendo Switch</span>

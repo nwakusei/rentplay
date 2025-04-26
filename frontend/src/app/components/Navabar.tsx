@@ -12,7 +12,7 @@ function Navbar() {
 					<Image
 						src="https://images.tcdn.com.br/files/1297101/themes/3/img/settings/LogoSite.png"
 						alt="Logo do site"
-						width={100}
+						width={200}
 						height={100}
 					/>
 					<li className="">Home</li>
